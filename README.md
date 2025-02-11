@@ -6,65 +6,65 @@ The IoT-Based Eco-Balanced Greenhouse System is an intelligent and automated sol
 
 ### Features
 
-**Real-Time Monitoring:** Sensors collect data on soil nutrients (NPK), pH levels, temperature, and moisture.
+  **Real-Time Monitoring:** Sensors collect data on soil nutrients (NPK), pH levels, temperature, and moisture.
 
-**Automated Actuation:** Controls water pumps, fans, and motors based on environmental conditions.
+  **Automated Actuation:** Controls water pumps, fans, and motors based on environmental conditions.
 
-**Crop Recommendation:** A machine learning model predicts the best crops based on soil and climate parameters.
+  **Crop Recommendation:** A machine learning model predicts the best crops based on soil and climate parameters.
 
-**Energy Consumption Estimation:** Predicts the electricity cost for cultivating specific crops.
+  **Energy Consumption Estimation:** Predicts the electricity cost for cultivating specific crops.
 
-**Web-Based Dashboard:** Displays real-time sensor readings, recommendations, and analytics (Planned Feature).
+  **Web-Based Dashboard:** Displays real-time sensor readings, recommendations, and analytics (Planned Feature).
 
 ### Technologies Used
 
-**Hardware:** Arduino Mega (R3), NPK Sensor, Soil Moisture Sensor, Temperature Sensor, H-Bridge, DC Motors
+  **Hardware:** Arduino Mega (R3), NPK Sensor, Soil Moisture Sensor, Temperature Sensor, H-Bridge, DC Motors
 
-**Software:** Python, Scikit-Learn, Pandas, NumPy, Joblib
+  **Software:** Python, Scikit-Learn, Pandas, NumPy, Joblib
 
-**Machine Learning:** Random Forest Classifier for crop prediction
+  **Machine Learning:** Random Forest Classifier for crop prediction
 
-**IoT & Automation:** Arduino-based control of actuators
+  **IoT & Automation:** Arduino-based control of actuators
 
 ###Installation & Usage
 
 #### 1. Hardware Setup
 
--Connect the sensors and actuators to the Arduino Mega.
+  -Connect the sensors and actuators to the Arduino Mega.
 
--Upload the greenhouse.ino sketch to the board.
+  -Upload the greenhouse.ino sketch to the board.
 
--Open the Serial Monitor to view real-time data.
+  -Open the Serial Monitor to view real-time data.
 
 #### 2. Crop Prediction Model
 
 ##### Install dependencies:
 
--pip install pandas numpy scikit-learn joblib
+  -pip install pandas numpy scikit-learn joblib
 
 ##### Train the model:
 
--python crop_prediction.py
+  -python crop_prediction.py
 
--Save the trained model (crop_predictor_model.pkl) for future predictions.
+  -Save the trained model (crop_predictor_model.pkl) for future predictions.
 
 #### 3. Energy Consumption Estimator
 
 ##### Run the estimator script:
 
--python energy_estimator.py
+  -python energy_estimator.py
 
--Enter the crop name to get the estimated electricity consumption.
+  -Enter the crop name to get the estimated electricity consumption.
 
-####Future Enhancements
+**Future Enhancements**
 
--Integration with a Web Dashboard for real-time monitoring.
+  -Integration with a Web Dashboard for real-time monitoring.
 
--AI-driven Crop Disease Detection.
+  -AI-driven Crop Disease Detection.
 
--Smart Irrigation Scheduling based on weather forecasts.
+  -Smart Irrigation Scheduling based on weather forecasts.
 
-####Contributors
+**Contributors**
 
 **Afaq Ahmad** – Project Developer
 
