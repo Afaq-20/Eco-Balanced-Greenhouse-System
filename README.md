@@ -6,15 +6,15 @@ The IoT-Based Eco-Balanced Greenhouse System is an intelligent and automated sol
 
 ### Features
 
-##### Real-Time Monitoring: Sensors collect data on soil nutrients (NPK), pH levels, temperature, and moisture.
+**Real-Time Monitoring:** Sensors collect data on soil nutrients (NPK), pH levels, temperature, and moisture.
 
-###### Automated Actuation: Controls water pumps, fans, and motors based on environmental conditions.
+**Automated Actuation:** Controls water pumps, fans, and motors based on environmental conditions.
 
-##### Crop Recommendation: A machine learning model predicts the best crops based on soil and climate parameters.
+**Crop Recommendation:** A machine learning model predicts the best crops based on soil and climate parameters.
 
-##### Energy Consumption Estimation: Predicts the electricity cost for cultivating specific crops.
+**Energy Consumption Estimation:** Predicts the electricity cost for cultivating specific crops.
 
-##### Web-Based Dashboard: Displays real-time sensor readings, recommendations, and analytics (Planned Feature).
+**Web-Based Dashboard:** Displays real-time sensor readings, recommendations, and analytics (Planned Feature).
 
 ### Project Structure
 
@@ -76,11 +76,11 @@ Smart Irrigation Scheduling based on weather forecasts.
 
 Contributors
 
-** Afaq Ahmad ** – Project Developer
+**Afaq Ahmad** – Project Developer
 
 Open for Contributions! Feel free to fork and improve the project.
 
-** License **
+**License**
 
 This project is licensed under the MIT License.
 
